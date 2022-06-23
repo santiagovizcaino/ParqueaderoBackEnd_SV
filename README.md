@@ -12,7 +12,10 @@ El sistema trabaja bajo Layer Architecture, así se tienen las capas: i) Servici
 
 
 El sistema de persistencia con el que trabaja el sistema es SQLSERVER 2019, el script de creación de la DataBase esta en el archivo adjunto parqueadero_SV.sql.
-Los métodos expuestos de la API son POST, GET, PUT, y DELETE, su documentación respectiva está hecha sobre Swagger [https://localhost:44360/swagger/ui/index]
+Los métodos expuestos de la API son POST, GET, PUT, y DELETE. El CRUD de la API esta dado de acuerdo a la entidad vehículos  su documentación respectiva está hecha sobre Swagger [https://localhost:44360/swagger/ui/index]
+
+
+
 Para la autorización autenticación se uso JWT, con tokens de periodo de expiración de un año, el método GET de la API no necita de autentificarse para utilizarlo caso contrario del resto de métodos que necesitan autenticación de usuario. 
 
 
