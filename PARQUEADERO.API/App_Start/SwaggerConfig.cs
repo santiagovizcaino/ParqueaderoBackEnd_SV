@@ -38,8 +38,8 @@ namespace PARQUEADERO.API
                         // additional fields by chaining methods off SingleApiVersion.
                         //
                         c.SingleApiVersion("v1", "PARQUEADERO.API")
-                        .Description("El proyecto esta consruido para una empresa que brinde servicio de parqueadero"
-                                            + "La arquitectura escogida fue Layer Architecture. Descripcion de las capas" + "Para la persistencia se uso SqlServer")
+                        .Description("El proyecto esta construido para una empresa que brinde servicio de parqueadero"
+                                            )
                                             .Contact(x => x.Name("Santiago Vizcaino").Email("jorge_santiagovizcaino@hotmail.com"));
 
 
